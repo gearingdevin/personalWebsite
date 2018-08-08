@@ -27,14 +27,42 @@ function initialization() {
     $('.tabs').tabs(); //INIT MENU TABS
     $('.modal').modal(); //INIT MODAL
     typeEffect();
-    contactForm();
+    contactHover();
 
 }
 
 
-function contactForm(){
+
+
+function contactHover() {
+    $(".grow").hover(
+        function () {
+            // $(this).append($("<span> ***</span>"));
+            var text = $(this).parent().find(".txt");
+            //console.log(this);
+            //$(text).removeClass('hidden');
+            // $(text).fadeIn("slow", function () {
+            //     // Animation complete
+            // });
+            
+
+        });
 
 }
+
+$('.grow')
+                .mouseenter(function () {
+                    var text = $(this).parent().find(".txt");
+                    $(text).fadeIn("slow", function () {
+                        // Animation complete
+                    });
+                })
+                .mouseleave(function () {
+                    var text = $(this).parent().find(".txt");
+                    $(text).fadeOut("slow", function () {
+                        // Animation complete
+                    });
+                });
 
 
 
