@@ -486,7 +486,14 @@ row{
   -webkit-animation-fill-mode: both;animation-fill-mode: both;
 }
 
+.icon{
+  /* margin-left: 5px;
+  margin-right: 5px; */
+}
 
-
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { font-size: 5em; }
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+.grow:hover {
+   font-size: 5em;
+   }
