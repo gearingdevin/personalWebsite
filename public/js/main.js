@@ -44,25 +44,27 @@ function contactHover() {
             // $(text).fadeIn("slow", function () {
             //     // Animation complete
             // });
-            
+
 
         });
 
 }
 
 $('.grow')
-                .mouseenter(function () {
-                    var text = $(this).parent().find(".txt");
-                    $(text).fadeIn("slow", function () {
-                        // Animation complete
-                    });
-                })
-                .mouseleave(function () {
-                    var text = $(this).parent().find(".txt");
-                    $(text).fadeOut("slow", function () {
-                        // Animation complete
-                    });
-                });
+    .mouseenter(function () {
+        var text = $(this).parent().find(".txt");
+        $(text).fadeIn("slow", function () {
+            // Animation complete
+        });
+    })
+    .mouseleave(function () {
+        var text = $(this).parent().find(".txt");
+        $(text).fadeOut("slow", function () {
+            // Animation complete
+        });
+    });
+
+
 
 
 
@@ -186,6 +188,11 @@ $("ul.tabs > li > a").click(function (e) {
 });
 
 
+$(".grow").on("click", function () {
+    //this this triggered when item is clicked
+   //var item = $(this).parent().find('.txt');
+   //alert('click');
+});
 
 $("#resumeButton").on("click", function () {
     $('.tabs').tabs('select', 'resumeTab');
