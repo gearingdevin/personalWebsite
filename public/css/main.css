@@ -58,12 +58,12 @@ body {
   background-color: #cccccc;
   font-family: 'Roboto', sans-serif;
   background-repeat: no-repeat;
-  background-position: center; 
+  /* background-position: center;  */
   background-attachment: fixed;
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
-  background-position: center center;
-    overflow-x: hidden;
+  background-position: 0px 0px;
+  overflow-x: hidden;
     /* overflow-y:scroll; */
     /* overflow-y: hidden; */
   
