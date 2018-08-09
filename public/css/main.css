@@ -492,7 +492,7 @@ row{
 }
 
 .tabs .tab a{
-  font-size: 1.7vw !important;
+  font-size: calc(0.8vw + 7px) !important;
 }
 
 .grow { 
