@@ -491,6 +491,10 @@ row{
   margin-right: 5px; */
 }
 
+.tabs .tab a{
+  font-size: 1.7vw !important;
+}
+
 .grow { 
   transition: all .2s ease-in-out; 
 }
