@@ -60,9 +60,9 @@ body {
   background-repeat: no-repeat;
   /* background-position: center;  */
   background-attachment: fixed;
-  background-size:     cover;                      /* <------ */
+  background-size:     initial;                      /* <------ */
   background-repeat:   no-repeat;
-  background-position: 0px 0px;
+  background-position: center center;
   overflow-x: hidden;
     /* overflow-y:scroll; */
     /* overflow-y: hidden; */
