@@ -21,6 +21,7 @@ table{
     overflow-x:auto;
     margin-top: 0px;
     border: 1px solid rgba(255,255,255,0.3);
+    overflow-y:scroll;
 }
 th{
     padding: 20px 15px;
@@ -63,6 +64,7 @@ body {
     background-repeat:   no-repeat;
     background-position: center center;
     overflow-x: hidden;
+    overflow-y:scroll;
     /* overflow-y: hidden; */
   
 }
@@ -427,7 +429,9 @@ h2 {
   width: 85%;
   height: 85%;
   margin-left: -0vw;
-  margin-top: 1vw;
+  margin-top: -4vw;
+  max-width: 45vw;
+  display:inline-block;
   -webkit-filter: drop-shadow(1px 1px 0 white)
 		drop-shadow(-1px 1px 0 white)
 		drop-shadow(1px -1px 0 white)
@@ -440,6 +444,10 @@ h2 {
            
 
       
+}
+
+.aboutTab{
+  /* margin-top: 1vw; */
 }
 
 .whiteBackground{
@@ -455,11 +463,23 @@ h2 {
 }
 
 .aboutText{
-  margin-top: 11vw;
+  /* margin-top: 11vw; */
   color: white;
 }
 
 
+.centered {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  width: 70% !important;
+  height: 70% !important;
+  transform: translate(-50%, -50%);
+  /* min-width:400px; */
+  flex-shrink: 0;
+  text-align: center;
+  
+}
 
 row{
   -webkit-animation-duration: 10s;animation-duration: 10s;
