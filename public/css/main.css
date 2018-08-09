@@ -61,10 +61,10 @@ body {
   background-position: center; 
   background-attachment: fixed;
   background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
+  background-repeat:   no-repeat;
+  background-position: center center;
     overflow-x: hidden;
-    overflow-y:scroll;
+    /* overflow-y:scroll; */
     /* overflow-y: hidden; */
   
 }
@@ -474,7 +474,7 @@ h2 {
   left: 50%;
   width: 70% !important;
   height: 70% !important;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
   /* min-width:400px; */
   flex-shrink: 0;
   text-align: center;
